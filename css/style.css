@@ -22,6 +22,7 @@ ul {
 ul li {
     display: inline-block;
     font-size: 10px;
+    width: 93px;
 }
 
 a {
@@ -38,19 +39,41 @@ header {
 }
 
 nav {
-    background: red;
-    width: 500px;
+    background: #707070;
+    width: 890px;
     padding: 5px;
     margin: auto;
+    border-radius: 4px;
 }
 
 nav ul {
     margin-top: 20px;
 }
 
-nav ul li a,
-nav ul li form {
+nav ul li a {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 27px;
+    font-weight: 400;
+    border-left: 1px solid #464646;
+}
 
+
+i.fa.fa-apple {
+    font-size: 18px;
+}
+
+#myInput {
+    background-image: url('/img/search.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    padding: 3px 5px;
+    border: 1px solid #000;
+    background: #707070;
+    border-radius: 10px;
+    color: #fff !important;
 }
 
 .banner-content {
@@ -59,27 +82,30 @@ nav ul li form {
 }
 
 .banner-content a h1 {
-    font-size: 50px;
+    font-size: 52px;
     line-height: 60px;
     font-weight: 200;
     color: #fff;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .banner-content a p {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 36px;
     color: #fff;
     font-weight: 200;
     margin: auto;
     padding: 5px;
+    font-family: 'Raleway', sans-serif;
 }
 
 p#explore-stories {
-    font-size: 20px;
+    font-size: 24px;
     margin: 10px;
     padding: 10px;
+    line-height: 30px;
 }
 
 .gallery {
@@ -115,6 +141,6 @@ p#explore-stories {
 
 .footer-primary {
     position: absolute;
-    left: 226px;
+    left: 208px;
     margin: -5px 0 20px 0;
 }
